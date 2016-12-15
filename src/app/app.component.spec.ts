@@ -3,9 +3,13 @@
 import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
 
+// ModuleB reference
+import { ModuleB } from 'module-b';
+
 describe('AppComponent', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
+      imports: [ModuleB],
       declarations: [
         AppComponent
       ],
