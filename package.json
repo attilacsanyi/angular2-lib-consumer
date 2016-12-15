@@ -4,6 +4,7 @@
   "license": "MIT",
   "angular-cli": {},
   "scripts": {
+    "lite-server": "lite-server",
 
     "build": "ng build",
     "start": "ng serve --host 0.0.0.0 --port 5001 --live-reload-port 49153",
@@ -40,6 +41,7 @@
     "karma-cli": "^1.0.1",
     "karma-jasmine": "^1.0.2",
     "karma-remap-istanbul": "^0.2.1",
+    "lite-server": "2.2.2",
     "protractor": "4.0.9",
     "ts-node": "1.2.1",
     "tslint": "^4.0.2",
