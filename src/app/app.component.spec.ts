@@ -3,9 +3,13 @@ import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
 
+// Failed: Unexpected value 'ModuleB' imported by the module 'DynamicTestModule'
+// import { ModuleB } from 'module-b';
+
 describe('AppComponent', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
+      // imports: [ModuleB],
       declarations: [
         AppComponent
       ],
